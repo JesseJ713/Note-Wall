@@ -55,6 +55,16 @@ _All notes are anonymous!_
 
 Click the _Get more notes_ button to refresh the board with a random selection of notes from the database.
 
+## TECHNOLOGIES USED
+
+* [MySQL](https://www.mysql.com/) - SQL Database
+* [Sequelize](https://sequelize.org/master/) - Promise-based ORM for MySQL
+* [Express.js](https://expressjs.com/) - Node.js framework 
+* [Node.js](https://nodejs.org/en/) - JavaScript runtime
+* [Handlebars](https://handlebarsjs.com/) - JavaScript Templating Language
+* [Anime.js](https://animejs.com/) - JavaScript Animation Library
+
+
 ## LICENSE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
