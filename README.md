@@ -39,7 +39,7 @@ In a dev environment, this will run the application on _localhost:8080_.
 ## USAGE
 #### Create a note
 
-From the landing page, click the _Create note_ button. This will allow the user to enter text and once submitted, will be sent to the database.
+From the landing page, click the _Create note_ button. This will allow the user to enter text and once submitted, will be stored in the database.
 
 #### View a note
 
