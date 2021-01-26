@@ -1,8 +1,4 @@
 # NOTE WALL
-![License](https://img.shields.io/badge/LICENSE-none-blue)
-
-![gif1](./)
-![gif2](./)
 
 ## DESCRIPTION
 A digital board to post anonymous notes, appropriate for all sentiments and occasions. Our app provides an online sanctum for safe expression in written form.
@@ -13,51 +9,86 @@ A digital board to post anonymous notes, appropriate for all sentiments and occa
   💻[Usage](#usage) <br>
   📜[License](#license) <br>
   👥[Contributors](#contributors) <br>
-  🏁[Test](#test) <br>
-  📱 [Contact](#contact)
 
 ## INSTALLATION
 
-In the terminal navigate to the app's root directory, and type: <br>
-<marquee>'npm install'</marquee>
-Press enter, then type: <br> 
-<marquee>'npm i express express-handlebars fs mysql2 sequelize'</marquee> <br> 
-Press enter, then type: <br>
-<marquee>node server.js</marquee>
-When the server console reads: <br>
-<marquee>App listening on PORT 8080</marquee>
-Then navigate to the browser, and in the address (URL) bar and type: <br>
-<marquee>localhost:8080</marquee>
-Press Enter... enjoy. 🙏
+##### Clone the Repository
+
+Navigate to the [Note-Wall Repository](https://github.com/JesseJ713/Note-Wall). Copy the SSH connection from Github. Clone the repository onto your machine from your terminal using:
+
+    git clone git@github.com:JesseJ713/Note-Wall.git
+
+This will create the Note-Wall directory.
+
+##### Install Dependencies
+
+In your terminal, navigate into the Surveasy directory. To install all required dependencies, use:
+
+    npm install
+
+This will install all dependencies.
+
+##### Running the application
+
+Use the start script from the Surveasy directory to run the application:
+
+    npm run start
+
+In a dev environment, this will run the application on _localhost:8080_.
 
 ## USAGE
-In the terminal type: 'node server.js' and press enter.
+#### Create a note
 
+From the landing page, click the _Create note_ button. This will allow the user to enter text and once submitted, will be sent to the database.
+
+#### View a note
+
+Notes are rendered onto a board that displays based off the user's screen size. Click any note you see fit to view the contents.
+
+*All notes are anonymous!*
+
+#### Get more notes
+
+Click the _Get more notes_ button to refresh the board with a random selection of notes from the database.
+ 
 ## LICENSE
-none
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## TEST
-N/A
 
-## CONTRIBUTORS
-👾Tyler Smith🎮
-🎵Josh Wilson🎤
-👮Jesse Jackson🔎
-🎭Desmond Aldridge🎬
-<br>
+## Contributors
 
-## CONTACT
-For further questions please contact the Notorious G-I-T team at:
+<table>
+<tr>
+<td style="border: none">
+  
+##### Tyler S.
+<a href="https://github.com/Sakiskid">![Profile Image](https://github.com/Sakiskid.png?size=50)</a> 
+<a href="https://www.linkedin.com/in/tyler-smith-atx/">![Badge](https://img.shields.io/badge/LinkedIn--3480eb)</a> <a href="https://github.com/Sakiskid">![Badge](https://img.shields.io/badge/Github--40c256)</a>
 
-<br>
-GitHub:<br>
+</td>
+<td style="border: none">
 
-https://github.com/Sakiskid <br>
-https://github.com/josh-wilson6289 <br>
-https://github.com/JesseJ713 <br> 
-https://github.com/DesmondAldridge<br>
-<br>
-Email:<br>
-joshua.wilson6289@gmail.com
-jesse.jackson.c@gmail.com
-desmondaldridge@gmail.com
+##### Josh W.
+<a href="https://github.com/josh-wilson6289">![Profile Image](https://github.com/josh-wilson6289.png?size=50)</a> 
+<a href="https://github.com/josh-wilson6289">![Badge](https://img.shields.io/badge/Github--40c256)</a>
+
+</td>
+</tr>
+
+<tr>
+<td style="border: none">
+
+##### Jesse J.
+<a href="https://github.com/JesseJ713">![Profile Image](https://github.com/JesseJ713.png?size=50)</a> 
+<a href="https://www.linkedin.com/in/jesse-jackson-atx/">![Badge](https://img.shields.io/badge/LinkedIn--3480eb)</a> <a href="https://github.com/JesseJ713">![Badge](https://img.shields.io/badge/Github--40c256)</a>
+
+</td>
+<td style="border: none">
+
+##### Desmond A.
+<a href="https://github.com/DesmondAldridge">![Profile Image](https://github.com/DesmondAldridge.png?size=50)</a> 
+<a href="https://www.linkedin.com/in/desmond-aldridge-4917b61b1/">![Badge](https://img.shields.io/badge/LinkedIn--3480eb)</a> <a href="https://github.com/DesmondAldridge">![Badge](https://img.shields.io/badge/Github--40c256)</a>
+
+</td>
+</tr>
+</table>
